@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-16T10:32:18 IST" name="Smoke" finished-at="2024-06-16T10:32:52 IST" duration-ms="34130">
+    <groups>
+      <group name="Smoke">
+        <method signature="AuthorizationToken.Token(java.lang.String)[pri:0, instance:com.epsos.authtoken.AuthorizationToken@49049a04]" name="Token" class="com.epsos.authtoken.AuthorizationToken"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-16T10:32:18 IST" name="Smoke" finished-at="2024-06-16T10:32:52 IST" duration-ms="34130">
+      <class name="com.epsos.authtoken.AuthorizationToken">
+        <test-method signature="Token(java.lang.String)[pri:0, instance:com.epsos.authtoken.AuthorizationToken@49049a04]" started-at="2024-06-16T10:32:18 IST" name="Token" finished-at="2024-06-16T10:32:52 IST" duration-ms="34081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Token -->
+      </class> <!-- com.epsos.authtoken.AuthorizationToken -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke -->
+</testng-results>

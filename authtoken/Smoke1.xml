@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+<parameter name="token" value="TEST" />
+
+<test name="Smoke" preserve-order="true">  
+<groups>  
+<run>  
+<include name="Smoke"/>  
+</run>  
+</groups> 
+<classes>
+
+<class name="com.epsos.authtoken.AuthorizationToken"/>
+
+
+</classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
