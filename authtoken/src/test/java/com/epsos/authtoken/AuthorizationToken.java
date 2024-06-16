@@ -28,7 +28,7 @@ public class AuthorizationToken{
 		WebDriverManager.chromedriver().clearDriverCache().setup();
 
 		ChromeOptions options = new ChromeOptions();
-		//options.addArguments("--headless");
+		options.addArguments("--headless");
 
 		ChromeDriver driver1 = new ChromeDriver(options);
 		driver1.manage().window().maximize();
